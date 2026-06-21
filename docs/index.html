@@ -128,8 +128,6 @@
     <p class="tag">Traduções não-oficiais feitas por fã para <b>Wii U</b> e outros consoles da Nintendo.
        Baixe, extraia, jogue no seu idioma. <b>Sugira o próximo no canal.</b></p>
     <div class="stats">
-      <div class="stat"><b id="st-games">0</b><small>Jogos</small></div>
-      <div class="stat m"><b id="st-dls">0</b><small>Downloads</small></div>
       <div class="stat"><b id="st-new" style="font-size:15px">—</b><small>Mais recente</small></div>
     </div>
   </header>
@@ -215,8 +213,6 @@ function render(list){
 }
 const totalDls=GAMES.reduce((s,g)=>s+Object.values(g.downloads||{}).reduce((a,b)=>a+b,0),0);
 const newest=[...GAMES].sort((a,b)=>new Date(b.data)-new Date(a.data))[0];
-document.getElementById('st-games').textContent=GAMES.length;
-document.getElementById('st-dls').textContent=fmt(totalDls);
 document.getElementById('st-new').textContent=newest?newest.titulo.split(':')[0].split('—')[0].trim():'—';
 document.getElementById('yt').href=CANAL_YT;
 document.getElementById('gh').href=GITHUB;
