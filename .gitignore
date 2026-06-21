@@ -1,0 +1,7 @@
+recon/
+release/
+*.BNDL
+work_en_*.json
+__pycache__/
+*.pyc
+.DS_Store
