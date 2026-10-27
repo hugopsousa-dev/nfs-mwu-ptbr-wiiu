@@ -1,52 +1,13 @@
-================================================================
-  NEED FOR SPEED: MOST WANTED U - TRADUCAO PT-BR
-================================================================
+Need for Speed: Most Wanted U — PT-BR v1.1
 
-  Traducao nao-oficial feita por fas para o Need for Speed:
-  Most Wanted U (Wii U, regiao NTSC-U - Americas).
-  Traduz menus, opcoes, manual, HUD, mensagens e desafios.
+COMECE PELO ARQUIVO COMO_INSTALAR.md.
 
-----------------------------------------------------------------
-  O QUE VOCE PRECISA
-----------------------------------------------------------------
-  - Wii U com Aroma instalado (o plugin SDCafiine ja vem junto).
-  - Um cartao SD do console.
-  - Sua copia do jogo Most Wanted U (NTSC-U).
+1. Extraia o ZIP inteiro no computador.
+2. Abra INICIAR_WINDOWS.cmd ou INICIAR_MAC.command.
+3. Selecione os arquivos da sua própria cópia e uma pasta nova de saída.
+4. Aguarde a conclusão. A pasta wiiu será criada em SAIDA_PTBR.
+5. Siga o guia para copiar o mod ao SD.
 
-----------------------------------------------------------------
-  COMO INSTALAR (3 passos)
-----------------------------------------------------------------
-  1) Copie a pasta "wiiu" deste pacote para a RAIZ do cartao SD.
-     Escolha JUNTAR/MESCLAR (nao substituir). Nada e apagado.
-     Caminho final no SD:
-       SD:/wiiu/sdcafiine/0005000010128800/NFS-MWU-PTBR/content/...
-
-  2) Deixe o idioma do Wii U em INGLES
-     (Configuracoes do console -> Idioma -> English).
-     A versao NTSC-U usa o ingles como base, e e ai que o PT-BR
-     entra. Em portugues do console NAO funciona.
-
-  3) Coloque o SD no Wii U e abra o jogo pelo Aroma.
-     Se aparecer o menu do SDCafiine, escolha "NFS-MWU-PTBR".
-
-----------------------------------------------------------------
-  DESINSTALAR
-----------------------------------------------------------------
-  Apague do SD a pasta:
-    SD:/wiiu/sdcafiine/0005000010128800/NFS-MWU-PTBR
-
-----------------------------------------------------------------
-  OBSERVACOES
-----------------------------------------------------------------
-  - Por limitacao da fonte do jogo, o "O" com til aparece sem o
-    til (ex.: CONFIGURACOES). Os demais acentos sao normais.
-  - Os creditos finais ficam no idioma original.
-  - Traducao gratuita. Nao venda e nao distribua com a ROM.
-
-----------------------------------------------------------------
-  CREDITOS
-----------------------------------------------------------------
-  Traducao e engenharia reversa: Hugo (Huguera)
-  Versao: 1.0
-  Novas traducoes: (seu canal do YouTube aqui)
-================================================================
+Região USA / NTSC-U; Title ID 0005000010128800.
+Não copie patches para o SD nem renomeie essa pasta para sdcafiine.
+O assistente não baixa nem inclui arquivos do jogo e não altera seus originais.

@@ -1,0 +1,24 @@
+{
+  "game": "Need for Speed: Most Wanted U",
+  "region": "USA / NTSC-U",
+  "title_id": "0005000010128800",
+  "release": "v1.1",
+  "mode": "files",
+  "space_bytes": 10485760,
+  "inputs": [
+    {
+      "label": "UI/LANGUAGE/0001.BNDL",
+      "relative_path": "content/UI/LANGUAGE/0001.BNDL",
+      "delta": "patches/nfs-0.bps",
+      "destination": "wiiu/sdcafiine/0005000010128800/NFS-MWU-PTBR/content/UI/LANGUAGE/0001.BNDL"
+    },
+    {
+      "label": "UI/LANGUAGE/1690132/0001.BNDL",
+      "relative_path": "content/UI/LANGUAGE/1690132/0001.BNDL",
+      "delta": "patches/nfs-1.bps",
+      "destination": "wiiu/sdcafiine/0005000010128800/NFS-MWU-PTBR/content/UI/LANGUAGE/1690132/0001.BNDL"
+    }
+  ],
+  "base_update": "Somente a revisão identificada pelos hashes deste pacote; outras revisões são recusadas.",
+  "runtime": "Aroma com SDCafiine instalado separadamente e ativado."
+}

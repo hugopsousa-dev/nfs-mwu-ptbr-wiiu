@@ -5,3 +5,13 @@ work_en_*.json
 __pycache__/
 *.pyc
 .DS_Store
+
+# Assistente público: somente código, documentação e deltas
+!instalador/
+!instalador/*.json
+!instalador/patches/
+!instalador/patches/*.json
+__pycache__/
+*.pyc
+SAIDA_PTBR/
+.ptbr-*/

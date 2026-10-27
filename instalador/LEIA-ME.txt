@@ -1,0 +1,13 @@
+Need for Speed: Most Wanted U — PT-BR v1.1
+
+COMECE PELO ARQUIVO COMO_INSTALAR.md.
+
+1. Extraia o ZIP inteiro no computador.
+2. Abra INICIAR_WINDOWS.cmd ou INICIAR_MAC.command.
+3. Selecione os arquivos da sua própria cópia e uma pasta nova de saída.
+4. Aguarde a conclusão. A pasta wiiu será criada em SAIDA_PTBR.
+5. Siga o guia para copiar o mod ao SD.
+
+Região USA / NTSC-U; Title ID 0005000010128800.
+Não copie patches para o SD nem renomeie essa pasta para sdcafiine.
+O assistente não baixa nem inclui arquivos do jogo e não altera seus originais.
