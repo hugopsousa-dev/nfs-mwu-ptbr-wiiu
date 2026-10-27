@@ -1,3 +1,17 @@
+# Validação v1.2 — assistente no navegador
+
+Os deltas BPS e os textos são idênticos aos da v1.1. A v1.2 muda o fluxo de geração e retira .command/.cmd do ZIP público. Não requer executar código nativo baixado.
+
+Motor JS testado no Mac: geração completa de NFS, Deus Ex e Fatal Frame, com verificações SHA-256/CRC. Fatal Frame teve os 120 MSBTs reextraídos e comparados por um leitor Python independente com a referência traduzida. O corpo não editado foi conferido por hash.
+
+O worker foi executado também em navegador Chromium com arquivos NFS e saída no armazenamento privado (OPFS), produzindo hashes exatos. A seleção de pasta real no Chrome/Edge externo não pôde ser concluída na automação; teste manual dessa interface permanece pendente. Não foi feito novo teste no Wii U. As limitações de baseline da v1.1 continuam válidas.
+
+A compressão deflate do navegador pode gerar bytes diferentes do archive do Python, com MSBTs idênticos. O relatório descreve hashes dos recursos, tabela e corpo preservado.
+
+[Detalhes do assistente e limites](https://github.com/hugopsousa-dev/hugopsousa-dev.github.io/tree/main/assistente).
+
+---
+
 # Validação da distribuição v1.1 — 27/10/2026
 
 Esta revisão corrige a distribuição e as instruções, preservando a tradução existente. Os pacotes públicos contêm BPS no perfil linear SourceRead/TargetRead, metadados SHA-256, assistente próprio e documentação.

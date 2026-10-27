@@ -6,7 +6,7 @@ import argparse, hashlib, json, os, queue, shutil, struct, sys
 import tempfile, threading, zlib
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent / "instalador"
 CHUNK = 4 * 1024 * 1024
 
 def sha(data):

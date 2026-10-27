@@ -1,7 +1,5 @@
-# Estado da distribuição — v1.1
+# Distribuição v1.2 — 27/10/2026
 
-27/10/2026: pacote padronizado com assistente, deltas BPS, manifesto, somas SHA-256 e guia completo em Markdown/HTML. Não foram retraduzidos textos.
+Fluxo principal migrado para processamento local no navegador. Retirados os atalhos .command/.cmd do ZIP público por causa dos avisos de software não autenticado. Os deltas BPS e os textos da tradução permanecem idênticos à v1.1.
 
-Compatibilidade, entradas e destinos: instalador/manifesto.json.
-Testes e limites: [VALIDACAO.md](VALIDACAO.md).
-Próximo passo de validação: instalação de ponta a ponta em outro computador e teste desta embalagem no Wii U.
+Entradas, hashes e destinos: instalador/manifesto.json. Instalação: COMO_INSTALAR.md. Testes e pendências: VALIDACAO.md. Novo teste em console desta embalagem permanece pendente.

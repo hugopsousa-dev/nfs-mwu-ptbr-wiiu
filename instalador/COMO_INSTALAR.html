@@ -1,45 +1,41 @@
-<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Need for Speed: Most Wanted U — instalação PT-BR v1.1</title><style>body{font:18px/1.65 system-ui,sans-serif;max-width:900px;margin:0 auto;padding:28px 20px;color:#172335;background:#f6f8fb}h1{font-size:2rem;line-height:1.2}h2{border-top:1px solid #c7d3df;padding-top:28px;margin-top:44px}a{color:#005eb8}code{background:#e6ecf3;padding:2px 5px;overflow-wrap:anywhere}pre{background:#172335;color:#fff;padding:18px;overflow:auto;border-radius:8px}pre code{background:none;padding:0;color:inherit}li{margin-bottom:12px}nav{margin-bottom:28px}</style><nav><a href="https://hugopsousa-dev.github.io/">← Voltar aos downloads</a></nav><main><h1>Need for Speed: Most Wanted U — instalação PT-BR v1.1</h1>
+<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Need for Speed: Most Wanted U — instalação PT-BR v1.2</title><style>body{font:18px/1.65 system-ui,sans-serif;max-width:900px;margin:0 auto;padding:28px 20px;color:#172335;background:#f6f8fb}h1{font-size:2rem;line-height:1.2}h2{border-top:1px solid #c7d3df;padding-top:28px;margin-top:44px}a{color:#005eb8}code{background:#e6ecf3;padding:2px 5px;overflow-wrap:anywhere}pre{background:#172335;color:#fff;padding:18px;overflow:auto;border-radius:8px}pre code{background:none;padding:0;color:inherit}li{margin-bottom:12px}nav{margin-bottom:28px}</style><nav><a href="https://hugopsousa-dev.github.io/">← Voltar aos downloads</a></nav><main><h1>Need for Speed: Most Wanted U — instalação PT-BR v1.2</h1>
 <p>Região: <strong>USA / NTSC-U</strong>. Title ID: <code>0005000010128800</code>. Guia revisado em 27/10/2026.</p>
-<p>A tradução usa o slot inglês. O glifo Õ maiúsculo continua limitado pela fonte; os créditos ficam no idioma original.</p>
-<h2>1. O que você vai baixar</h2>
-<p>Você pode abrir <code>COMO_INSTALAR.html</code> no navegador para ler este mesmo guia com formatação.</p>
-<p>Este ZIP é um <strong>gerador de tradução</strong>. Ele não traz o jogo nem exige conta de IA, chave de API ou pagamento. Você fornece os arquivos da sua própria cópia e ele cria uma cópia traduzida. Nada é instalado automaticamente no console.</p>
-<p>A pasta <code>patches</code> guarda apenas diferenças entre arquivos. <strong>Não copie <code>patches</code> para o SD e não a renomeie para <code>sdcafiine</code>.</strong> A pasta <code>wiiu</code> aparece depois de concluir o assistente.</p>
-<h2>2. Preparar o computador e o console</h2>
+<h2>1. Abra o assistente no navegador</h2>
 <ol>
-<li>Tenha sua própria cópia do jogo extraída em pastas. Um dump é uma cópia dos arquivos do seu jogo, feita por você; o <a href="https://github.com/emiyl/dumpling">Dumpling oficial</a> documenta essa extração. Este assistente usa os arquivos indicados abaixo, não aceita WUP/ISO/WUX diretamente.</li>
-<li>Use <strong>Python 3.10 ou mais recente</strong>. Para quem quer usar as janelas, instale uma versão estável atual do <a href="https://www.python.org/downloads/">Python oficial</a>, com Tcl/Tk. No Windows, inclua o Python Launcher na instalação. Python do Homebrew pode não incluir Tk.</li>
-<li>No Wii U, tenha <strong>Aroma e SDCafiine instalado e ativado</strong>. Não presuma que o SDCafiine acompanha toda instalação do Aroma. Veja o <a href="https://github.com/wiiu-env/sdcafiine_plugin#installation-of-the-plugin">SDCafiine oficial</a>.</li>
-<li>Guarde uma cópia de segurança do SD antes de instalar ou atualizar mods. Não use arquivos que já receberam outra tradução como entrada.</li>
-<li>Baixe o ZIP pelo botão do jogo no <a href="https://hugopsousa-dev.github.io/">site Huguera</a>. Extraia o ZIP inteiro: no Windows, clique com o botão direito e escolha <strong>Extrair Tudo</strong>; no Mac, dê dois cliques no ZIP. Não execute dentro da janela compactada.</li>
+<li>No computador, abra o <strong>Google Chrome ou Microsoft Edge atualizado</strong>. Use o <a href="https://hugopsousa-dev.github.io/assistente/?jogo=nfs">assistente Huguera</a>. A página informará se o navegador não tem os recursos necessários. Safari e Firefox não oferecem a mesma seleção de pasta para este fluxo.</li>
+<li>Você também pode baixar e extrair o ZIP. Dentro dele, abra <code>ABRIR_ASSISTENTE.html</code> e clique no link para o assistente. O ZIP contém os deltas e os guias; não contém executáveis para instalar no computador.</li>
+<li>O processamento acontece no navegador. Seus arquivos do jogo ficam no computador: o site baixa apenas os dados do patch e não envia os originais para um servidor.</li>
 </ol>
-<h2>3. Abrir o assistente</h2>
-<p><strong>No Windows:</strong> dê dois cliques em <code>INICIAR_WINDOWS.cmd</code>. Se aparecer “Python não encontrado”, instale o Python com o Launcher e abra novamente.</p>
-<p><strong>No Mac:</strong> dê dois cliques em <code>INICIAR_MAC.command</code>. Se o macOS não permitir abrir ou o ZIP perder a permissão de execução, abra o Terminal, digite <code>python3 </code> (com um espaço), arraste <code>instalar.py</code> para a janela e pressione Enter. Se o Python não tiver Tk, use o Python oficial ou o modo de terminal descrito mais abaixo. Você não precisa desativar as proteções do Mac.</p>
-<p>Na janela:</p>
-<ol>
-<li>Clique em <strong>Selecionar arquivo…</strong> em cada campo e escolha os arquivos listados na próxima seção. Arquivos com o mesmo nome podem ficar em subpastas diferentes; confira o caminho.</li>
-<li>Clique em <strong>Onde salvar…</strong> e escolha uma pasta do computador com espaço livre. O assistente criará dentro dela uma NOVA pasta chamada <code>SAIDA_PTBR</code>. Para refazer, use outro local ou renomeie a saída anterior.</li>
-<li>Clique em <strong>GERAR PASTA PT-BR</strong>. Aguarde; arquivos grandes podem levar vários minutos. Não feche a janela durante a geração.</li>
-<li>Só prossiga quando aparecer a conclusão. Se surgir erro de incompatibilidade, os originais continuam preservados. Use a região e a revisão exigidas; renomear arquivos ou pastas não resolve uma versão diferente.</li>
-</ol>
-<h2>4. Arquivos que este jogo exige</h2>
-<p>Selecione nesta ordem:</p>
+<p><strong>Não é necessário Python, Terminal ou abrir arquivos .command/.cmd.</strong> A geração usa as permissões de arquivos e pastas do navegador.</p>
+<h2>2. Separe os arquivos da sua cópia do jogo</h2>
+<p>Um dump é a cópia dos arquivos do seu próprio jogo. Se ainda não a tem, consulte o <a href="https://github.com/emiyl/dumpling">Dumpling oficial</a>. Este assistente usa arquivos extraídos em pastas; não aceita WUP/ISO/WUX diretamente.</p>
+<p>Na região indicada acima, selecione os dois arquivos originais, nesta ordem:</p>
 <ul>
 <li><code>content/UI/LANGUAGE/0001.BNDL</code></li>
-<li><code>content/UI/LANGUAGE/1690132/0001.BNDL</code> (arquivo da subpasta do manual)</li>
+<li><code>content/UI/LANGUAGE/1690132/0001.BNDL</code></li>
 </ul>
-<p>Reserve pelo menos <strong>10 MB livres</strong>, além do espaço ocupado pelo seu dump. Não troque o Title ID para tentar usar outra região. Os arquivos são conferidos antes da geração.</p>
-<h3>Alternativa pelo Terminal / PowerShell</h3>
-<p>Abra o terminal dentro da pasta extraída do pacote. Troque <code>SEU_DUMP</code> pelo caminho real da sua cópia, mantendo aspas em caminhos com espaços. No Windows, troque <code>python3</code> por <code>py -3</code>.</p>
-<pre><code>python3 instalar.py --entrada &quot;SEU_DUMP/content/UI/LANGUAGE/0001.BNDL&quot; --entrada &quot;SEU_DUMP/content/UI/LANGUAGE/1690132/0001.BNDL&quot; --saida &quot;SAIDA_PTBR&quot;</code></pre>
-<p>Se <code>SAIDA_PTBR</code> já existir, escolha outro nome. Não é necessário editar scripts, traduzir novamente nem contratar API.</p>
+<p>Use os originais, sem tradução anterior. Confira as subpastas quando houver nomes iguais. Os hashes identificam a revisão compatível; trocar nomes ou o número da pasta não converte outra região. Reserve pelo menos <strong>10 MB livres</strong>, além do espaço do dump. Compatibilidade com outras atualizações ou DLC não é anunciada.</p>
+<h2>3. Escolha uma pasta para salvar e gere</h2>
+<ol>
+<li>Crie uma pasta vazia chamada <strong>HUGUERA</strong> no computador, por exemplo dentro de Downloads.</li>
+<li>Na página, clique em <strong>Selecionar pasta HUGUERA…</strong> e escolha somente essa pasta.</li>
+<li>O navegador solicitará permissão para gravar nessa pasta. Autorize apenas a pasta de saída escolhida; não selecione a pasta dos seus originais, o disco inteiro ou diretamente o SD.</li>
+<li>Clique em <strong>GERAR TRADUÇÃO</strong>. Aguarde a conferência e a gravação. Fatal Frame tem um arquivo de aproximadamente 3,7 GB e pode levar vários minutos. Mantenha a aba aberta e espaço livre suficiente.</li>
+<li>Ao terminar, aparecerá uma nova pasta com nome começando por <strong>SAIDA_NFS_PTBR_…</strong>. O nome também será mostrado na página. Ela contém <code>wiiu</code>, <code>COMO_INSTALAR.html</code>, <code>RELATORIO.json</code> e <code>PRONTO_PARA_INSTALAR.txt</code>.</li>
+<li>Só instale após a mensagem de conclusão e a presença de <code>PRONTO_PARA_INSTALAR.txt</code>. Uma pasta com <code>NAO_INSTALAR_EM_GERACAO.txt</code> ainda não está pronta.</li>
+</ol>
+<p>Se cancelar ou ocorrer uma falha, o assistente tenta remover somente a pasta parcial criada por ele. Os originais não são substituídos. Se fechar a aba durante a geração, pode restar uma pasta incompleta: não a instale. Se um arquivo for recusado, confira região e revisão antes de tentar novamente.</p>
+<h2>4. Sobre o aviso do Mac e preparar o Wii U</h2>
+<p>O atalho <code>.command</code> da v1.1 não era assinado e autenticado pela Apple. Isso explica o aviso de que a Apple não podia verificá-lo; o aviso não é um diagnóstico de vírus. A orientação da Apple está em <a href="https://support.apple.com/pt-br/102445">Abrir apps com segurança no Mac</a>.</p>
+<p><strong>Os atalhos foram retirados da v1.2. Use o navegador; não é necessário desativar o Gatekeeper, remover quarentena ou abrir exceções de segurança para um script.</strong></p>
+<p>Antes de instalar no console, faça backup do SD e tenha Aroma com o plugin SDCafiine instalado e ativado. Ele não acompanha necessariamente toda instalação de Aroma. Veja o <a href="https://github.com/wiiu-env/sdcafiine_plugin">SDCafiine oficial</a>.</p>
+<p>A limitação anterior da fonte com o glifo Õ maiúsculo permanece. Os créditos finais continuam no idioma original.</p>
 <h2>5. Copiar a tradução para o cartão</h2>
 <ol>
 <li>Com o Wii U desligado, conecte o SD ao computador.</li>
-<li>Abra <code>SAIDA_PTBR</code>. Dentro dela estará a pasta <code>wiiu</code>.</li>
+<li>Abra a nova pasta <code>SAIDA_…</code>. Dentro dela estará a pasta <code>wiiu</code>.</li>
 <li>“Raiz do SD” é a primeira tela que aparece ao abrir o cartão, antes de entrar em qualquer pasta.</li>
-<li>A meta é acrescentar o mod em <code>SD:/wiiu/sdcafiine/</code>. Não deixe <code>SD:/SAIDA_PTBR/wiiu/</code> nem <code>SD:/wiiu/wiiu/</code>.</li>
+<li>A meta é acrescentar o mod em <code>SD:/wiiu/sdcafiine/</code>. Não deixe <code>SD:/SAIDA_…/wiiu/</code> nem <code>SD:/wiiu/wiiu/</code>.</li>
 <li>Se <code>wiiu</code> e <code>sdcafiine</code> já existirem, <strong>entre nelas e copie apenas a pasta do jogo/mod indicada abaixo</strong>. Se o sistema oferecer juntar/mesclar pastas, pode usar essa opção. Se oferecer substituir a pasta <code>wiiu</code> inteira, cancele e copie a subpasta manualmente. Preserve os outros jogos e plugins.</li>
 <li>Se o mesmo mod já estiver instalado, guarde sua pasta anterior no computador e coloque a nova pasta do mod no lugar. Não misture arquivos de revisões diferentes.</li>
 <li>Ejete o SD pelo sistema antes de retirar. Recoloque no Wii U.</li>

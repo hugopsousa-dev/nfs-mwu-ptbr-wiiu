@@ -2,7 +2,7 @@
   "game": "Need for Speed: Most Wanted U",
   "region": "USA / NTSC-U",
   "title_id": "0005000010128800",
-  "release": "v1.1",
+  "release": "v1.2",
   "mode": "files",
   "space_bytes": 10485760,
   "inputs": [
@@ -20,5 +20,9 @@
     }
   ],
   "base_update": "Somente a revisão identificada pelos hashes deste pacote; outras revisões são recusadas.",
-  "runtime": "Aroma com SDCafiine instalado separadamente e ativado."
+  "runtime": "Aroma com SDCafiine instalado separadamente e ativado.",
+  "patch_sha256": {
+    "patches/nfs-1.bps": "c9cad9fde46221ffdd70487ca36ff49774f123460123755992245aaeaa51fa62",
+    "patches/nfs-0.bps": "78815600d1ffb62f08241c13f01e0624a1a408b805663568c4964fefe870e1c3"
+  }
 }
